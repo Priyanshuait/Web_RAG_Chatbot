@@ -27,7 +27,8 @@ export default function DualInterface() {
   const [newSessionName, setNewSessionName] = useState('');
 
   // API base URL - update this to match your FastAPI server
-  const API_BASE_URL = 'http://127.0.0.1:8000';
+  // const API_BASE_URL = 'http://127.0.0.1:8000';    #main code line
+  const API_BASE_URL = 'https://bz65xp3b-8000.inc1.devtunnels.ms';
   
   // const TEMP_URL = "chat_legal"
   const TEMP_URL = "query"
